@@ -92,19 +92,16 @@ footer {
 }
 
 /* Contato css */
-main {
-  
-	
-}
+
 
 form {
-	margin: 40px 0;
+	margin: 40px 40px;
 }
 
 form label, form legend {
 	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
+	font-size: 18px;
+	margin: 0px 0px 20px;
 }
 
 .input-padrao {
@@ -121,7 +118,7 @@ form label, form legend {
 .enviar {
 	width:40%;
 	padding: 15px 0;
-	background: orange;
+	background: darkorange;
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
@@ -132,12 +129,12 @@ form label, form legend {
 }
 
 .enviar:hover {
-	background: #1604d6;
+	background: #F3A300;
 	transform: scale(1.2);
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 40px 40px;
 }
 
 thead {
