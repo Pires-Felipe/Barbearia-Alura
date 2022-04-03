@@ -155,7 +155,7 @@ body {
 }
 
 .banner{
-  width: 50%;
+  width: 100%;
 }
 
 .titulo-principal {
@@ -196,7 +196,7 @@ body {
 }
 
 .mapa-conteudo {
-  width: 940px;
+  width: 90px;
   margin: 0 auto;
 }
 
