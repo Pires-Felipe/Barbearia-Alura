@@ -263,6 +263,6 @@ body {
     }
 
     .lista-beneficios, .imagem-beneficios {
-        width: 10%;
+        width: 100%;
     }
 }
