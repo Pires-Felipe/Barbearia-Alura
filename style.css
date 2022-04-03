@@ -1,6 +1,6 @@
 /* Produtos css */
 header {
-	background: blue;
+	background: #BBBBBB;
 	padding: 20px 0;
 }
 
@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 40px;
 }
 
 .produtos h2 {
