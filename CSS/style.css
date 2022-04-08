@@ -234,9 +234,6 @@ body {
   content: "★";
 }
 
-.itens:first-child {
-  font-weight: bold;
-}
 
 .imagem-beneficios {
   width: 60%;
@@ -255,9 +252,21 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-bene, .mapa-conteudo, .video, .produtos {
         width: auto;
+        padding: 5px
     }
+
+   .lista-bene {
+      display: block;
+      width: auto;
+      
+   }
+   
+   .itens {
+      margin-left: 25%;
+      padding: 4px
+   }
 
     h1 {
         text-align: center;
@@ -265,9 +274,21 @@ body {
 
     nav {
         position: static;
+        text-align: center
     }
 
-    .lista-beneficios, .imagem-beneficios {
-        width: 100%;
+    .imagem-beneficios {
+        width: 80%;
+        margin: 40px 20px 20px 40px;
+    }
+    
+    .produtos li {
+       display: block;
+       width: 70%;
+       margin: 15%
+    }
+     
+    form {
+       width: 80%;
     }
 }
