@@ -295,11 +295,9 @@ td, th {
        margin: 15%
     }
      
-    form {
+    form .enviar {
        width: 90%;
     }
     
-    .enviar {
-       padding: 20px;
-    }
+    
 }
